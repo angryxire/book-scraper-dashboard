@@ -21,7 +21,7 @@ def run_scraper():
 			lowest_price = float('inf')
 			scraped_count = 0
 
-			for page_number in range(1, 3):
+			for page_number in range(1, 51):
 				print(f"\n--- SCRAPING PAGE {page_number} ---\n")
 
 
